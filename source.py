@@ -606,9 +606,15 @@ plt.show()
 # - Plotly documentation for interactive visualizations
 # - Scikit-learn documentation for train/test splits, preprocessing pipelines, regression models, and evaluation metrics
 
-# In[27]:
+# In[ ]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!
-get_ipython().system('jupyter nbconvert --to python source.ipynb')
+#!jupyter nbconvert --to python source.ipynb
+
+
+# In[29]:
+
+
+get_ipython().system('jupyter nbconvert --to html --TemplateExporter.exclude_input=True source.ipynb')
 
