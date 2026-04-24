@@ -606,7 +606,7 @@ plt.show()
 # - Plotly documentation for interactive visualizations
 # - Scikit-learn documentation for train/test splits, preprocessing pipelines, regression models, and evaluation metrics
 
-# In[1]:
+# In[27]:
 
 
 # ⚠️ Make sure you run this cell at the end of your notebook before every submission!
